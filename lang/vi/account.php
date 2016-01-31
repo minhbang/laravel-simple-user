@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'change_password_success'  => 'Thay đổi mật khẩu thành công.<br>Xin hãy đăng nhập lại!',
+    'credentials_invalid'      => 'Thông tin đăng nhập không chính xác!',
+    'email_reset_password'     => 'E-mail đăng ký tài khoản',
+    'forgot_password'          => 'Quên Mật khẩu?',
+    'login'                    => 'Đăng nhập',
+    'login_title'              => 'Thông tin Đăng nhập',
+    'logout'                   => 'Đăng xuất',
+    'password'                 => 'Mật khẩu',
+    'password_confirmation'    => 'Xác nhận Mật khẩu',
+    'password_new'             => 'Mật khẩu mới',
+    'password_now'             => 'Mật khẩu cũ',
+    'password_reset_link'      => 'Link phục hồi mật khẩu',
+    'profile'                  => 'Thông tin cá nhân',
+    'remember'                 => 'Nhớ lần sau',
+    'reset_password'           => 'Phục hồi mật khẩu',
+    'send_password_reset_link' => 'Gửi link phục hồi mật khẩu',
+    'update_password'          => 'Đổi Mật khẩu',
+    'update_password_title'    => 'Thông tin Mật khẩu mới',
+    'update_profile'           => 'Thay đổi Thông tin cá nhân',
+    'update_profile_success'   => 'Lưu thay đổi Thông tin cá nhân thành công!',
+    'username'                 => 'Tên đăng nhập',
+    'throttle'                 => 'Too many login attempts. Please try again in :seconds seconds.',
+];
