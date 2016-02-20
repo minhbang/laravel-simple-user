@@ -52,7 +52,7 @@ $ php artisan migrate
 * **Thêm vào file app/Http/Kernel.php => $routeMiddleware** (đứng đầu)
 ```php
 protected $routeMiddleware = [
-	'admin' => \Minhbang\User\Middleware\Admin::class,
+	'role' => \Minhbang\User\Middleware\Role::class,
 	//...
 ];
 ```
