@@ -3,7 +3,7 @@
 namespace Minhbang\User;
 
 use Illuminate\Routing\Router;
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use Minhbang\Kit\Extensions\BaseServiceProvider;
 
 /**
  * Class UserServiceProvider
@@ -40,9 +40,8 @@ class ServiceProvider extends BaseServiceProvider
             'db'
         );
 
-        if (config('user.add_route') && !$this->app->routesAreCached()) {
-            require __DIR__ . '/routes.php';
-        }
+        $this->mapWebRoutes($router, __DIR__ . '/routes.php', config('user.add_route'));
+        
         // pattern filters
         $router->pattern('user', '[0-9]+');
         // model bindings
